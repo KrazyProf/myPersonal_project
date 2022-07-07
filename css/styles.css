@@ -1,0 +1,210 @@
+body {
+    /* background-color: #99FEFF; */
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+
+h1 {
+    /* margin-top: 50px;
+    margin-bottom: 0; */
+    /* or */
+    margin: 50px auto 0 auto;
+    /* we can only set those content in the center who does not have a width set  */
+    /* width: 10%; if any element is present that has a width changed it's not going to work and the element will not be in center */
+    /* the only way to correct this is by making the margin of the left and right to auto */
+    /* margin: 0 auto; */
+    font-family: 'Sacramento', cursive;
+    /*font-size: 90px;*/
+    /*16px=100%=1em (1em is equal to ) i.e 90/16 = 5.625 
+    => 90px = 5.625 * 100% = 5.625em */
+    font-size: 5.625rem;
+    /*But the only problem with "em" is that it changes with respect to the it's parent 
+    e.g if the font-size of the body is 2em or 200% and we apply font-size in any child say 4em then this "em" will be calulated w.r.t the 2em of
+    body*/
+    /*so the best practise is to use the "rem" i.e root em which says ignore the font-size of the parent and stay the specified size without being
+    calculated w.r.t the parent font-size*/
+    color: #66BFBF;
+    line-height: 2;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-weight: bold;
+    line-height: 2;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    line-height: 2;
+}
+
+
+.top-container {
+    background-color: #bbe3f9;
+    padding: 10px;
+    /* border: 2px solid rgb(0, 0, 0); */
+    position: relative;
+    padding-top: 100px;
+    height: 50;
+}
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+    left: 400px;
+}
+
+.top-cloud {
+    position: relative;
+    left: 233px;
+}
+
+.intro {
+    width: 50%;
+    margin: auto;
+}
+
+.contact-description {
+    width: 67%;
+    margin: auto;
+}
+
+.skill1 {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill2 {
+    height: 200px;
+    width: 200px;
+    float: right;
+    margin-left: 30px;
+
+}
+
+.top-h2 {
+    font-size: 2.5rem;
+}
+
+
+.skill-row {
+    width: 50%;
+    display: inline-block;
+    margin: 20px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+/* The below properties will make the text of the .skill-row below the images  */
+/* .skills_skill-row-description2 {
+    clear: right;
+}
+
+.skills_skill-row-description1 {
+    clear: left;
+} */
+
+hr {
+    width: 3%;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    border-color: grey;
+
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    height: 80px;
+    padding: 60px
+}
+
+#bottom-description {
+    margin: 0 auto 0 auto;
+    padding-top: 40px;
+    color: #EAF6F6;
+
+}
+
+.footer-link {
+    padding: 34px;
+    text-decoration: none;
+
+}
+
+a {
+    color: #11999E;
+    padding: 34px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-me {
+    padding: 34px;
+    width: 50%;
+    display: inline-block;
+    margin: 20px auto;
+    /* text-align: left; */
+    line-height: 2;
+
+}
+
+input {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #11999E;
+    color: #EAF6F6;
+    border-radius: 5px;
+    height: 36px;
+    width: 127px;
+    /* margin: 25px auto; */
+}
+
+p {
+    font-family: sans-serif;
+    line-height: 2;
+}
+
+.profile {
+    width: 50%;
+    display: inline-block;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 2;
+}
+
+.btn {
+    background: #25e2e8;
+    background-image: -webkit-linear-gradient(top, #25e2e8, #5a92b5);
+    background-image: -moz-linear-gradient(top, #25e2e8, #5a92b5);
+    background-image: -ms-linear-gradient(top, #25e2e8, #5a92b5);
+    background-image: -o-linear-gradient(top, #25e2e8, #5a92b5);
+    background-image: linear-gradient(to bottom, #25e2e8, #5a92b5);
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #686c6e;
+    background-image: -webkit-linear-gradient(top, #686c6e, #860fdb);
+    background-image: -moz-linear-gradient(top, #686c6e, #860fdb);
+    background-image: -ms-linear-gradient(top, #686c6e, #860fdb);
+    background-image: -o-linear-gradient(top, #686c6e, #860fdb);
+    background-image: linear-gradient(to bottom, #686c6e, #860fdb);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #860fdb;
+}
