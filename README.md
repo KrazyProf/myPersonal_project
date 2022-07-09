@@ -1,5 +1,5 @@
 # myPersonal_project
-Project preview (./Screenshot 1386.png)
+Project preview (images/website-preview.png)
 👋 Hi, I’m @KrazyProf and my real name is Ayush Kaithwas
 👀 I’m interested in ... Web development, Python , Machine Learning
 🌱 I’m currently learning ... Web development and Python
